@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }], // Enforce 2 spaces for indentation
+    "no-tabs": "error" // Prevent the use of tab characters
+  }
+}
