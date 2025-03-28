@@ -33,10 +33,10 @@ export default function Options ({ correctOption, handleOptionSelected }: Option
       const randomFalseOption = Math.ceil(Math.random() * 114);
 
       /** Make sure the new random number is: 
-       *  a- not equal to the the correctOption, and
+       *  a- not equal to the correctOption, and
        *  b- not already added to the array.
        */
-      if (!falseOptions.includes(randomFalseOption) && randomFalseOption !== correctOption) {
+      if (randomFalseOption !== correctOption && !falseOptions.includes(randomFalseOption)) {
         falseOptions.push(randomFalseOption);
       }
 
