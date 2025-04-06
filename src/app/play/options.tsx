@@ -61,7 +61,7 @@ export default function Options ({ correctOption, handleOptionSelected }: Option
             <button
               key={option}
               onClick={() => {handleOptionSelected(option)}}
-              className={"btn-option cursor-pointer"}
+              className={"btn-w-option btn-bordered cursor-pointer bg-[var(--foreground)] text-[var(--background)] hover:bg-[var(--background)] hover:text-[var(--foreground)]"}
             >
               { option }
             </button>

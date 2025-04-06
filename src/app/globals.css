@@ -38,12 +38,15 @@ main {
   border-bottom: 0.5px solid var(--border-color);
 }
 
-.btn-option {
+.btn-w-option {
   min-width: 45px;
   width: 6vw;
   max-width: 65px;
+}
+
+.btn-bordered {
   border: 1px solid var(--border-color);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .tracking-custom-03-center {

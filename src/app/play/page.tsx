@@ -65,7 +65,7 @@ export default function Page () {
   }, []);
 
   return (
-    <main>
+    <main className="xs:px-4 sm:px-4 md:px-8 lg:px-14 xl-20">
       {/* Surah name */}
       <div className="h-3/4 grid justify-center content-center items-center">
         { chosenSurahNumber && 
